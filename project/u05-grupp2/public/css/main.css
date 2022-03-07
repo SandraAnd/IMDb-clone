@@ -1,0 +1,143 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.body {
+    background-color: black;
+}
+
+.card-group{
+    margin:30px;
+padding:40px;
+}
+
+.card-index{
+    font-size:15px;
+}
+
+.header-main{
+    background-color:black;
+}
+
+.wrapper { /*for the second carousel*/
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.section-home {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.item {
+    padding: 0 2px;
+    transition: 250ms all;
+   
+}
+
+
+
+.a-home{ /**/
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: rgb(0, 0, 0);
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* .a-home:nth-of-type(1) {
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+.a-home:nth-of-type(2) { 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+} */
+
+.imgMovie {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner {
+    /* height: 70vh; */
+    height: 70vw; /*According to the width not the height*/
+}
+
+.card-text {
+    color: white;
+}
+.card-title{
+    color: white;
+}
+
+/* Remove the arrow for Mobile */
+/* @media only screen and (max-width: 600px) {
+    .a-home.arrow__btn {
+     
+    }
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper{
+  width: 100%;
+}
+.owlcarousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.owlcarousel .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.h1-home{
+    color: #DBA506;
+ font-weight:bold;
+    font-size:50px;
+    margin-left:2%;
+   
+}
+
+.p-home{
+    color: #000000;
+    font-size:20px;
+}
